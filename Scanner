@@ -1,0 +1,15 @@
+//@author Bruno ZC
+
+package scanning;
+import java.util.Scanner;
+
+public class Scanning {
+
+    public static void main(String[] args) {
+ Scanner reader = new Scanner(System.in); 
+        int x;
+        x = reader.nextInt();
+        System.out.println(x);
+    }
+    
+}
